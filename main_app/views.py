@@ -20,4 +20,4 @@ def finches_detail(request, finch_id):
 
 class FinchCreate(CreateView):
   model = Finch
-  fields = '_all_'
+  fields = '__all__'
